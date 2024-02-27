@@ -1,0 +1,1 @@
+SELECT customers.order_items, customers.order_id, suppliers.order_items, suppliers.id FROM customers LEFT JOIN suppliers;
